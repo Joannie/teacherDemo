@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="input-group mb-4">
+        <select id="subject" name="subject" class="custom-select">
+            <option>國文</option>
+            <option>數學</option>
+            <option>自然</option>
+            <option>英文</option>
+        </select>
+    </div>
+
+    <div id="scores" class="container-fluid">
+        <table class="table table-striped">
+            <tr class="tr">
+                <th>科目</th>
+                <th>成績</th>
+            </tr>
+            <tr>
+                <td>國文</td>
+                <td>100</td>
+            </tr>
+            <tr class="tr">
+                <td>數學</td>
+                <td>80</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="text/javascript" src="demo.js">
+
+        /* d3.selectAll("#scores").style("background-color", "yellow");
+        
+        var sel_Lan = d3.select('#subject');
+
+        sel_Lan
+        .append("option")
+        .property("value", "地理")
+        .text("地理"); */
+    </script>
+
+</body>
+
+</html>
